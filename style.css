@@ -41,6 +41,11 @@ h2.titulo span{
     color: #00FF08;
 }
 
+button:hover{
+    box-shadow: 0px 0px 8px #00ff08c9;
+    transform: scale(1.05);
+}
+
 /* ESTILO DO CABEÇALHO */
 header{
     padding: 40px 4%;
@@ -73,11 +78,6 @@ header > .interface{
     padding: 0 40px;
 }
 
-.btn-contato button:hover{
-    box-shadow: 0px 0px 8px #00ff08c9;
-    transform: scale(1.05);
-}
-
 /* ESTILO DO TOPO DO SITE*/
 section.topo-do-site{
     padding: 40px 4%;
@@ -93,6 +93,10 @@ section.topo-do-site .flex{
     color: #fff;
     font-size: 41px;
     line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site p span{
+    color: #ff0000;
 }
 
 .topo-do-site .txt-topo-site h1 span{
@@ -151,7 +155,7 @@ section.especialidades .flex{
 
 /* ESTILO DO SOBRE */
 section.sobre{
-    padding: 40px 4%;
+    padding: 80px 4%;
 }
 
 section.sobre .flex{
@@ -159,8 +163,34 @@ section.sobre .flex{
     gap: 60px;
 }
 
-.sobre.txt-sobre{
+.sobre .txt-sobre{
     color: #fff;
-
 }
 
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: #00FF08;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 18px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .btn-rede-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #00FF08;
+    font-size: 23px;
+    cursor: pointer;
+    margin: 0 7px;
+    transition: .2s;
+}
