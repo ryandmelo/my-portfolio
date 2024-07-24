@@ -194,3 +194,51 @@ section.sobre .flex{
     margin: 0 7px;
     transition: .2s;
 }
+
+/* ESTILO DO PORTIFOLIO*/
+section.portifolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff17;
+}
+
+section.portifolio .flex{
+    justify-content: space-around;
+    margin-top: 57px;
+}
+
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 9s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
+
+.img-port:hover{
+    background-position: 100% 100%;
+}
+
+.efeito-sombreado{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000a2;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: .4s;
+}
+
+.efeito-sombreado:hover{
+    opacity: 1;
+}
