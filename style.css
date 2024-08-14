@@ -110,6 +110,7 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site .img-topo-site img {
+    width: 300px;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
@@ -325,6 +326,7 @@ footer .line-footer p a {
     /* CLASSES GERAIS*/
     .flex {
         flex-direction: column;
+        text-align: center;
     }
 
     h2.titulo {
@@ -358,7 +360,7 @@ footer .line-footer p a {
 
     .topo-do-site .img-topo-site img {
         width: 80%;
-
+        
     }
 
     /* ESTILO DAS ESPECIALIDADES */
