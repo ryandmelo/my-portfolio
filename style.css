@@ -62,10 +62,6 @@ form .btn-enviar input:hover {
 /* ESTILO DO CABEÇALHO */
 header {
     padding: 40px 4%;
-    position: fixed;
-    background-color: #000000;
-    z-index: 77777;
-    height: 100px;
 }
 
 header>.interface {

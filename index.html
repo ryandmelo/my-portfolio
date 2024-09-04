@@ -158,12 +158,20 @@
             <div class="interface">
                 <h2 class="titulo">FALA <span>COMIGO.</span></h2>
 
-                <form action="">
-                    <input type="text" name="" id="" placeholder="Seu nome:" class="efeito-txt-cntt1" required>
-                    <input type="text" name="" id="" placeholder="Seu e-mail:" class="efeito-txt-cntt2" required>
-                    <input type="text" name="" id="" placeholder="Seu celular" class="efeito-txt-cntt3" >
-                    <textarea name="" id="" placeholder="Sua mensagem" class="efeito-txt-cntt4" required></textarea>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+
+                    <input type="text" name="name" id="" placeholder="Seu nome:" class="efeito-txt-cntt1" required>
+
+                    <input type="text" name="email" id="" placeholder="Seu e-mail:" class="efeito-txt-cntt2" required>
+
+                    <input type="text" name="phone" id="" placeholder="Seu celular" class="efeito-txt-cntt3" >
+    
+                    <textarea name="message" id="" placeholder="Sua mensagem" class="efeito-txt-cntt4" required></textarea>
+                    
                     <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+
+                    <input type="hidden" name="accessKey" value="f101e187-6caa-4ad2-a012-a174e07fbbf7">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/?#inicio">
                 </form>
             </div><!--interface-->
         </section><!--formulario-->
