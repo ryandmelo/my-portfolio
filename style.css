@@ -6,6 +6,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #000;
     height: 100vh;
@@ -18,6 +22,10 @@ body {
 
 .flex {
     display: flex;
+}
+
+.efeito-txt-topo, .efeito-img-topo, .titulo, .efeito-especialidades1, .efeito-especialidades2, .efeito-especialidades3, .efeito-img-sobre, .efeito-txt-sobre, .efeito-txt-cntt1, .efeito-txt-cntt2, .efeito-txt-cntt3, .efeito-txt-cntt4, .btn-enviar{
+    visibility: hidden;
 }
 
 .btn-contato button {
@@ -54,6 +62,10 @@ form .btn-enviar input:hover {
 /* ESTILO DO CABEÇALHO */
 header {
     padding: 40px 4%;
+    position: fixed;
+    background-color: #000000;
+    z-index: 77777;
+    height: 100px;
 }
 
 header>.interface {

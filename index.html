@@ -13,6 +13,9 @@
     <!--FIM BOOTSTRAP ICONS-->
     <link rel="stylesheet" href="style.css">
 
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="reveal.js" defer></script>
+
     <script src="main.js" defer></script>
 
     <title>Projeto portfólio dMelo</title>
@@ -29,15 +32,15 @@
             
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Especialidades</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portifolio">Projetos</a></li>
                 </ul>
             </nav>
 
             <div class="btn-contato">
-                <a href="#">
+                <a href="#contato">
                     <button>Contato</button>
                 </a>
             </div>
@@ -52,11 +55,10 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Especialidades</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Projetos</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#portifolio">Projetos</a></li>
                     </ul>
                 </nav>
             </div><!--menu mobile-->
@@ -67,61 +69,61 @@
     </header>
 
     <main>
-        <section class="topo-do-site">
+        <section class="topo-do-site" id="inicio">
             <div class="interface">
                 <div class="flex">
-                    <div class="txt-topo-site">
+                    <div class="txt-topo-site efeito-txt-topo">
                         <h1>OLÁ, SEJA BEM VINDO AO MEU PORTIFÓLIO PESSOAL<span>.</span></h1>
-                        <p>Obrigado pela sua visita ao meu primeiro projeto pessoal comitado no GitHub. poderá ver mais informações sobre mim abaixo! <br><span>OBS: </span>esse projeto ainda não foi concluido! </p>
+                        <p>Obrigado pela sua visita ao meu projeto pessoal. poderá ver mais informações sobre mim abaixo! <br><span>OBS: </span>Projeto em atualização! </p>
 
                         <div class="btn-contato">
-                            <a href="#">
+                            <a href="#contato">
                                 <button>Entre em Contato</button>
                             </a>
                         </div>
                     </div><!--txt-topo-site-->
 
-                    <div class="img-topo-site">
+                    <div class="img-topo-site efeito-img-topo">
                         <img src="images/Foto Roga 1 e.png" alt="" >
                     </div><!--img-topo-site-->
                 </div><!--flex-->
             </div><!--interface-->
         </section><!--topo do site-->
 
-        <section class="especialidades">
+        <section class="especialidades" id="especialidades">
             <div class="interface">
                 <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
                 <div class="flex">
-                    <div class="especialidades-box">
+                    <div class="especialidades-box efeito-especialidades1">
                         <i class="bi bi-code-square"></i>
                         <h3>Website</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur illo natus totam sed quisquam fugiat ratione quas aperiam velit voluptate veniam architecto aliquid, corporis id officia dicta? Doloribus, mollitia temporibus.</p>
+                        <p>Transformando ideias em experiência digital. Crio sites modernos, rápidos e fáceis de usar, que atendem às necessidades do cliente e funcionam bem em todos os dispositivos. <br>Utilizo JavaScript, HTML e CSS.</p>
                     </div><!--especialidades-box-->
 
-                    <div class="especialidades-box">
-                        <i class="bi bi-code-square"></i>
-                        <h3>Website</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur illo natus totam sed quisquam fugiat ratione quas aperiam velit voluptate veniam architecto aliquid, corporis id officia dicta? Doloribus, mollitia temporibus.</p>
+                    <div class="especialidades-box efeito-especialidades2">
+                        <i class="bi bi-database"></i>
+                        <h3>Database</h3>
+                        <p>Cuido para que seus dados estejam sempre seguros e organizados. Desenvolvo e administro bancos de dados que facilitam o acesso rápido às informações, ajudando você a tomar decisões mais inteligentes e a manter o seu negócio funcionando sem problemas. <br>Utilizo Oracle Database e MySQL.</p>
                     </div><!--especialidades-box-->
 
-                    <div class="especialidades-box">
-                        <i class="bi bi-code-square"></i>
+                    <div class="especialidades-box efeito-especialidades3">
+                        <i class="bi bi-pc-display-horizontal"></i>
                         <h3>Website</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur illo natus totam sed quisquam fugiat ratione quas aperiam velit voluptate veniam architecto aliquid, corporis id officia dicta? Doloribus, mollitia temporibus.</p>
+                        <p>Estou começando minha jornada na criação de sistemas, focando em desenvolver soluções simples e funcionais. Mesmo como iniciante, meu objetivo é criar sistemas que ajudem a automatizar tarefas e melhorar processos, sempre buscando aprender e aprimorar minhas habilidades para entregar resultados cada vez melhores.</p>
                     </div><!--especialidades-box-->
                 </div><!--flex-->
             </div><!--interface-->
         </section><!--especialidades-->
 
-        <section class="sobre">
+        <section class="sobre" id="sobre">
             <div class="intercace">
                 <div class="flex">
-                    <div class="img-sobre">
+                    <div class="img-sobre efeito-img-sobre">
                         <img src="images/logo dMelo (fundo preto).png" alt="">
                     </div><!--img-sobre-->
                     
-                    <div class="txt-sobre">
-                        <h2>MUITO PRAZER, <span>SOU RYAN DE MELO</span></h2>
+                    <div class="txt-sobre efeito-txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU RYAN DE MELO.</span></h2>
                         <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus corporis unde ut velit odit dignissimos quaerat, et nihil quasi temporibus quidem doloribus ad magni eaque magnam optio, dolores non assumenda!</P>
                         <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab architecto dolore vitae autem veritatis asperiores veniam ad eos vero quis repellendus ipsam similique doloremque, atque sed quam ducimus animi sapiente.</P>
                         <div class="btn-rede-social">
@@ -135,32 +137,32 @@
             </div><!--interface-->
         </section><!--sobre-->
 
-        <section class="portifolio">
+        <section class="portifolio" id="portifolio">
             <div class="interface">
                 <h2 class="titulo">MEU <span>PORTIFÓLIO.</span></h2>
                 <div class="flex">
-                    <div class="img-port" style="background-image: url(images/logo\ dMelo.png);">
+                    <div class="img-port efeito-img-port1" style="background-image: url(images/pexels-photo-433989.png);">
                         <div class="efeito-sombreado">Projeto 1</div>
                     </div>
-                    <div class="img-port"style="background-image: url(images/logo\ dMelo.png);">
+                    <div class="img-port efeito-img-port2"style="background-image: url(images/pexels-photo-433989.png);">
                         <div class="efeito-sombreado">Projeto 2</div>
                     </div>
-                    <div class="img-port"style="background-image: url(images/logo\ dMelo.png);">
+                    <div class="img-port efeito-img-port3"style="background-image: url(images/pexels-photo-433989.png);">
                         <div class="efeito-sombreado">Projeto 3</div>
                     </div>
                 </div><!--flex-->
             </div><!--interface-->
         </section><!--portifolio-->
         
-        <section class="formulario">
+        <section class="formulario" id="contato">
             <div class="interface">
                 <h2 class="titulo">FALA <span>COMIGO.</span></h2>
 
                 <form action="">
-                    <input type="text" name="" id="" placeholder="Seu nome:" required>
-                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
-                    <input type="text" name="" id="" placeholder="Seu celular" >
-                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <input type="text" name="" id="" placeholder="Seu nome:" class="efeito-txt-cntt1" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail:" class="efeito-txt-cntt2" required>
+                    <input type="text" name="" id="" placeholder="Seu celular" class="efeito-txt-cntt3" >
+                    <textarea name="" id="" placeholder="Sua mensagem" class="efeito-txt-cntt4" required></textarea>
                     <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
                 </form>
             </div><!--interface-->
@@ -189,6 +191,6 @@
             </div><!--line-footer-->    
         </div><!--interface-->
     </footer>
-
+    
 </body>
 </html>
