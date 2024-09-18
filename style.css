@@ -337,8 +337,7 @@ form {
     margin-top: 40px;
 }
 
-form input,
-form textarea {
+form input, form textarea {
     width: 100%;
     background-color: #222222;
     border: 0;
@@ -394,6 +393,45 @@ footer .line-footer p i {
 footer .line-footer p a {
     color: #fff;
 }
+
+/* PÁGINA DO OBRIGADO*/
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #000000;
+    flex-direction: column;
+}
+
+.text{
+    font-size: 45px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.paragrafo{
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.btn{
+    margin-bottom: 20px;
+    display: flex;
+    padding: 15px 55px;
+    border-radius: 10px;
+    background: #00ff08f6;
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    transition: all 0.5s;
+    gap: 15px;
+}
+
+.btn:hover{
+    border-radius: 16px;
+}
+
 
 /* RESPONSIVO */
 @media screen and (max-width: 1020px) {
@@ -491,3 +529,4 @@ footer .line-footer p a {
         text-align: center;
     }
 }
+
